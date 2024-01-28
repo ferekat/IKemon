@@ -1,0 +1,131 @@
+#columns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.columns{
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    flex:1;
+    padding:20px;
+    text-align: center;
+}
+
+#columns input[type=button], input[type=submit], input[type=reset]{
+    background-color: #517d81;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#columns * {
+    box-sizing: border-box;
+  }
+  
+#columns input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+#columns label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+#columns div{
+    margin-top: auto;
+}
+form{
+    width: 70%;
+    padding-left: 15%;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    font-size: 18px;
+    text-align: right;
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+input#loginusername{
+    font-size: 18px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 75%;
+}
+input#loginpassword {
+    font-size: 18px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 75%;
+}
+input#signupusername{
+    font-size: 18px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 75%;
+}
+input#signuppassword {
+    font-size: 18px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 75%;
+}
+input#email {
+    font-size: 18px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 75%;
+}
+input#passwordagain {
+    font-size: 18px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 75%;
+}
+footer{
+    margin-top:15%;
+}
+li{
+    color: red;
+}
+ul{
+    list-style-type: none;
+}
